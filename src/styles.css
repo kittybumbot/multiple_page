@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #14274e;
-  --secondary-color: #9f5f80;
-  --accent-color: #f1f6f9;
-  --box-shadow: 0 5px 8px 0 rgba(252, 169, 169, 0.2);
+  --primary-color: #1b262c;
+  --secondary-color: #4b5d67;
+  --accent-color: #dddddd;
+  --box-shadow: 0 5px 8px 0 rgba(140, 149, 180, 0.2);
   --font-heading: "Sarala", sans-serif;
   --font-body: "Open Sans", sans-serif;
 }
@@ -14,7 +14,7 @@ p {
 }
 
 h3 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 1.5rem;
 }
 
@@ -31,10 +31,13 @@ h1 {
   margin: 0;
 }
 
-.heading {
-  font-size: 3rem;
+.banner {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/012/413/original/sharon-mccutcheon-ouRjPLWGbPc-unsplash.jpg?1625527790);
   margin: 0;
+  margin-left: 0;
   margin-top: 6rem;
+  padding: 2rem;
+  opacity: 0.9;
 }
 
 p {
@@ -107,7 +110,10 @@ a:hover {
   box-shadow: var(--box-shadow);
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) {
+  h1,
+  h2,
+  h3,
   p {
     text-align: center;
   }
