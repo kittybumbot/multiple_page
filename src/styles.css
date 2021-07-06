@@ -60,6 +60,10 @@ a:hover {
   opacity: 0.9;
 }
 
+.about {
+  margin-top: 4rem;
+}
+
 .country {
   font-size: 14px;
   opacity: 0.7;
