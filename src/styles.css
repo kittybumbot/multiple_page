@@ -124,7 +124,7 @@ a:hover {
   font-size: 2rem;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   h1,
   h2,
   h3,
